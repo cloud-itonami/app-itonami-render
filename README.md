@@ -37,7 +37,7 @@ the existing `:kotoba.render/texture-rgba8-v1` descriptors consumed by browser
 and native adapters. Bake these descriptors into release assets; runtime hosts
 remain responsible only for upload and mip handling.
 
-Zero-dep-ish (JVM-resource-loading only) portable `.cljc` — restored from the
+Zero-dep-ish (JVM-resource-loading only) portable `.cljk` (formerly `.cljc`) — restored from the
 legacy `kami-engine/kami-render` Rust crate as part of the **clj-wgsl
 migration** (ADR-2607010930, `com-junkawasaki/root`, Phase 4/5).
 
